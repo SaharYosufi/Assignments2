@@ -1,0 +1,250 @@
+body {background-color: #222831; 
+margin-top: 0%;
+margin-left: 0%;
+margin-right: 0%;
+margin-bottom: 1500;
+}
+#first-row {
+    background-color: #76ABAE;
+    text-align: right;
+    height: 50;
+    position: sticky;
+   
+}
+.home {
+    list-style-type: none;
+    display: inline-block;
+    margin-block-start: 0;
+    border-radius: 10px;
+    padding: 30px;
+    
+    transition-duration: 700ms;
+    height: 1px;
+}
+.home:hover {
+    background-color: #F8E8EE;
+    
+}
+.header{
+    right: 30px;
+    color: black;
+    bottom: 55%;
+    display: inline-block;
+    position: relative;
+    padding-left: 0;
+}
+
+.logo {
+    height: 50px; 
+    width: 50px; 
+    position: absolute;
+    display: inline;
+    right: 1250;
+}
+
+#second-row{
+    background-color: #76ABAE;
+   margin: 50px;
+   padding: 20px;
+   border-style: ridge;
+   position: relative;
+   width: 1000px;
+   border-radius: 10px;
+   left: 80px;
+   
+}
+
+.Elemental {
+   height: 500px;
+   width: 350px;
+   border-style: ridge;
+   position: relative;
+   left: 320px;
+   
+}
+#second-row:hover .fa-circle-play {
+    opacity: 100;  
+  }
+
+  
+.moviesection {
+    text-align: center;
+    background-color: #76ABAE;
+    margin: 50px;
+    padding: 20px;
+    position: absolute;
+    border-style: ridge;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    border-radius: 10px;
+    transition-duration: 500ms;
+    height: 420px;
+}
+.Images {
+    height: 350px;
+    width: 260px;
+    
+}
+.Migration{
+    left: 75;
+}
+.Avatar {
+    left: 450;
+}
+.Mavka {
+    left: 820;
+}
+
+.moviesection:hover, .moviesection:focus, .moviesection:active {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+transform: scale(1.1);
+}
+.fa-circle-play{
+    font-size: 40;
+    text-align: center;
+    bottom: 220;
+    color: white;
+    position: absolute;
+}
+
+.fa-circle-play{
+    opacity: 0%;
+    transition-duration: 1s;
+}
+.moviesection:hover .fa-circle-play {
+    opacity: 100;
+    
+    
+  }
+.fa-camera-movie{
+    font-size: 100;
+}
+.Gold{
+    
+    top: 1400;
+    left: 75;
+
+    
+}
+.Raya{
+    top: 1400;
+    left: 450; 
+}
+.Wish{
+    top: 1400;
+    left: 820;
+}
+
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-track{
+    background-color: #d1e5ff;
+
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(#642bff, #ff22e6);
+}
+.foot{
+   
+    background-color:#76ABAE;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 25px;
+    color: black;
+    text-align: center;
+    padding: 5px;
+    margin-top: 1000;
+}
+.upcoming{
+    background-color: #76ABAE ;
+    
+    margin: 50px;
+    padding: 20px;
+    border-style: ridge;
+    position: relative;
+    width: 500px;
+    border-radius: 10px;
+}
+
+
+.Gol{
+    top: 600;
+    left: 75;
+}
+.Ray{
+    top: 600;
+    left: 450; 
+}
+.Wis{
+    top: 600;
+    left: 820;
+}
+
+.pagination{
+    text-align: center;
+    position: relative;
+    top: 1080;
+    height: 100;
+} 
+.pagination a {
+    color: black;
+    text-decoration: none;
+    padding: 8px 15px;
+    display: inline-block;
+    height: 15px;
+    background-color:#76ABAE ;
+    margin-top: 80;
+}  
+.pagination a.active{
+    
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.active:hover{
+    background-color: #F8E8EE;
+    
+    
+  }
+  a{
+    text-decoration-line: none;
+    color: black;
+    transition-duration: 500ms;
+    height: 5px;
+    margin-block-start: 0;
+     border-radius: 10px;
+   
+   
+  }
+  p a:hover{
+    background-color: #F8E8EE;
+  }
+  input{
+    border-style:none ;
+    height: 40;
+    width: 60;
+    background-color: #76ABAE;
+    border-style: ridge;
+    border-color: white;
+    display: inline-block;
+    width: 50px;
+    text-align: center;
+    transition-duration: 500ms;
+    
+  }
+ 
+
+input:hover {
+    background-color: #F8E8EE;
+}
+input:hover, input:focus, input:active {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(0.5.0.5);
+transform: scale(0.5.0.5);
+
+}
+ 
